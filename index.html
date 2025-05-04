@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Bhumika</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Crafting Stunning Web Experiences</h1>
+      <p>I design and develop beautiful, responsive websites with a pixel-perfect eye.</p>
+      <a href="https://github.com/Bhumika-Mehta8287" class="btn">Explore More</a>
+ 
+
+    </div>
+    <div class="hero-img">
+      <img src="2156664-removebg-preview.png" alt="Web Design" />
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Bhumika | Creative Web Designer</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
